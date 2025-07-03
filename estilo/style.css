@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 6px;
+}
+
+header>h1{
+    margin-left: 12px;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    color: rgb(66, 66, 66);
+}
+
+.nav1 > a{
+    margin-right: 20px;
+}
+
+.nav1{
+    position: relative;
+    right: 32%;
+    
+}
+
+.nav2 > a {
+    margin-right: 10px;
+}
+
+.nav2{
+    
+}
+
+#cadastro{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#cadastro:hover{
+    background-color:rgb(173, 173, 173) ;
+}
+
+main{
+    margin: 40px;
+    position: relative;
+}
+
+main > h1{
+    font-size: 4em;
+    line-height: 1.3em;
+    margin-left: 10px;
+}
+
+main > img{
+    position: absolute;
+    left: 58%;
+    top: 50%;
+    transform: translate(-30%, -30%);
+    height: 500px;
+    width: 750px;
+}
+
+main > p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#comecar{
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: black;
+    border: none;
+}
+
+#comecar:hover{
+    background-color: rgb(170, 170, 170);
+}
+
+#login{
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+#login:hover{
+    color: rgb(151, 151, 151);
+}
